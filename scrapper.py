@@ -33,3 +33,4 @@ for index, img_link in enumerate(links):
     else:
         f.close()
         break
+
