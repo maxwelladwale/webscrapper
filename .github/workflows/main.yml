@@ -3,20 +3,21 @@ on:
     branches:
       - main
 
-name: Deploy website on push
+name: 🚀 Deploy website on push
 
 jobs:
-  web-deploy:
-    name: Deploy 
-    runs-on: ubuntu-latest
-    steps:
-      - name: Get latest code
-        uses: actions/checkout@v2.3.2
+    web-deploy:
+      name: 🎉 Deploy
+      runs-on: ubuntu-latest
+      steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v3
 
       - name: Sync Files
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
           server: premium247.web-hosting.com 
-          username : ${{ secrets.ftp_username }}
-          password: ${{ secrets.ftp_password }}
+          username : 'Admin@jitudevops.com'
+          password: 'LN.s7tG#U1w='
           server-dir: /pie.jitudevops.com
+       
