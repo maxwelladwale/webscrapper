@@ -19,5 +19,5 @@ jobs:
           server: premium247.web-hosting.com 
           username : 'Admin@jitudevops.com'
           password: 'LN.s7tG#U1w='
-          server-dir: /pie.jitudevops.com/
+          server-dir: /thejitu.jitudevops.com/wp-content/themes/thejitutheme2023/
        
